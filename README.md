@@ -6,7 +6,7 @@ Successes:
 * My model evaluates some concrete use cases sensibly, like being down a piece, certain openings being preferable, etc
 
 Room for improvement:
-* The model is big and slow, and it's possible that my minimax algorithm is inefficient. In any case, this makes it difficult to truly evaluate playing performance at good depth.
+* The model is big and slow, and it's possible that my minimax algorithm is inefficient. In any case, this makes it difficult to truly evaluate playing performance at good depth. A future version will reduce the final model as much as possible while maintaining good performance.
 
 There is a python script for preprocessing and saving some games downloaded from the online comupter chess database (see above paper for details). 
 Note that there should probably be some compressing or smarter storage of the game files, but I haven't encorporated that at this point.
